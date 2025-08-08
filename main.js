@@ -164,6 +164,18 @@ function createCustomMenu() {
           click: () => {
             shell.openExternal('https://claude.ai');
           }
+        },
+        {
+          label: 'Open Grok Web',
+          click: () => {
+            shell.openExternal('https://grok.com');
+          }
+        },
+        {
+          label: 'Open ChatGPT Web',
+          click: () => {
+            shell.openExternal('https://chat.openai.com');
+          }
         }
       ]
     },
@@ -383,7 +395,7 @@ ipcMain.handle('toggle-accordion', (event, isMinimized) => {
       mainWindow.setBounds({
         x: bounds.x,
         y: bounds.y,
-        width: 300, // Compact width
+        width: 315, // Compact width
         height: 48  // Just the header height
       });
       
@@ -398,8 +410,8 @@ ipcMain.handle('toggle-accordion', (event, isMinimized) => {
       mainWindow.setBounds({
         x: mainWindow.getBounds().x,
         y: mainWindow.getBounds().y,
-        width: 400,
-        height: 600
+        width: 430,
+        height: 650
       });
       
       // Show the title bar and menu bar again

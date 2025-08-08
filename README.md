@@ -2,6 +2,11 @@
 
 A modern, draggable, always-on-top desktop overlay for chatting with local AI models (Ollama, Llama.cpp) and TTS (Coqui-TTS). Features beautiful dark mode design, accordion minimize, and extensive customization.
 
+```
+NOTE:
+There is a lot of functionality still missing from this app, but I hope to continue adding to it as I use it.
+```
+
 ## ✨ Features
 
 <div align="center">
