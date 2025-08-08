@@ -282,8 +282,8 @@ function createCustomMenu() {
 
 function createWindow() {
   mainWindow = new BrowserWindow({
-    width: 400,
-    height: 600,
+    width: 430,
+    height: 650,
     x: 50, // Position from left
     y: 50, // Position from top
     frame: true, // Keep frame for easy dragging

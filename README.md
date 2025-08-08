@@ -4,6 +4,12 @@ A modern, draggable, always-on-top desktop overlay for chatting with local AI mo
 
 ## ✨ Features
 
+<div align="center">
+
+![Screenshot](./images/AI_Overlay_Screenshot.png)
+
+</div>
+
 ### 🎨 **Modern Dark Mode Design**
 - Sleek gradient backgrounds and glass morphism effects
 - Smooth animations and hover effects
