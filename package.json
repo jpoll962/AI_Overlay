@@ -1,0 +1,52 @@
+{
+  "name": "ai-chat-overlay",
+  "version": "1.0.0",
+  "description": "Always-on-top draggable AI chat overlay for Ubuntu",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron . --no-sandbox --disable-gpu",
+    "dev": "electron . --dev --no-sandbox --disable-gpu",
+    "start-safe": "electron . --no-sandbox --disable-gpu --disable-gpu-sandbox --disable-software-rasterizer",
+    "build": "electron-builder",
+    "clean": "rm -rf node_modules package-lock.json",
+    "fresh-install": "npm run clean && npm install",
+    "security-check": "npm audit --audit-level=moderate",
+    "security-fix": "npm audit fix"
+  },
+  "keywords": ["electron", "ai", "chat", "overlay", "ollama"],
+  "author": "Joseph Pollock",
+  "license": "GPL-3.0",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "devDependencies": {
+    "electron": "^28.2.0",
+    "electron-builder": "^24.9.1"
+  },
+  "dependencies": {
+    "axios": "^1.6.7"
+  },
+  "overrides": {
+    "glob": "^10.3.10",
+    "inflight": "^1.0.6"
+  },
+  "build": {
+    "appId": "com.jpoll962.ai-chat-overlay",
+    "productName": "AI Chat Overlay",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "main.js",
+      "renderer.js",
+      "preload.js", 
+      "index.html",
+      "styles.css"
+    ],
+    "linux": {
+      "target": "AppImage",
+      "category": "Utility"
+    }
+  }
+}

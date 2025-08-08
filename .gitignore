@@ -1,0 +1,112 @@
+# Node.js Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build Output
+dist/
+build/
+out/
+
+# Electron Builder Output
+release/
+app/
+*.dmg
+*.exe
+*.AppImage
+*.deb
+*.rpm
+*.zip
+*.tar.gz
+
+# Package Lock Files (allows different versions)
+package-lock.json
+
+# Environment Variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE and Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS Generated Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Logs
+logs/
+*.log
+
+# Runtime Data
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage Directory Used by Tools Like Istanbul
+coverage/
+.nyc_output/
+
+# Dependency Directories
+jspm_packages/
+
+# Optional npm Cache Directory
+.npm
+
+# Optional eslint Cache
+.eslintcache
+
+# Microbundle Cache
+.rpt2_cache/
+.rts2_cache_cjs/
+.rts2_cache_es/
+.rts2_cache_umd/
+
+# Optional REPL History
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity File
+.yarn-integrity
+
+# Temporary Folders
+tmp/
+temp/
+
+# Application-Specific
+# User settings and chat history (if you don't want to track personal data)
+user-data/
+chat-history/
+app-settings.json
+
+# AI Model Files (these can be large)
+models/
+*.gguf
+*.bin
+*.pt
+*.pth
+
+# Screenshots or Demo Files (optional - you might want to include some)
+screenshots/
+demos/
+
+# Backup Files
+*.backup
+*.bak
+*.orig
