@@ -7,7 +7,7 @@ NOTE:
 There is a lot of functionality still missing from this app, but I hope to continue adding to it as I use it.
 ```
 
-## ✨ Features
+## Features
 
 <div align="center">
 
@@ -15,13 +15,13 @@ There is a lot of functionality still missing from this app, but I hope to conti
 
 </div>
 
-### 🎨 **Modern Dark Mode Design**
+### **Modern Dark Mode Design**
 - Sleek gradient backgrounds and glass morphism effects
 - Smooth animations and hover effects
 - Professional typography and spacing
 - Responsive and accessible interface
 
-### 🚀 **Core Functionality**
+### **Core Functionality**
 - **Always on top** - stays visible over all other windows
 - **Draggable** - position anywhere on screen
 - **Accordion minimize** - collapse to a single draggable bar
@@ -29,16 +29,16 @@ There is a lot of functionality still missing from this app, but I hope to conti
 - **Service management** - start/stop services directly from the app
 - **Claude integration** - opens Claude web interface in browser
 
-### 🛠️ **Enhanced Features**
-- **📊 Advanced Settings System** with tabbed interface for all AI parameters
-- **📋 AI Model Parameter Control** - Temperature, tokens, sampling settings
-- **💾 Persistent Configuration** - All settings and AI parameters saved
-- **🔄 Real-time Status Display** - Current model, port, connection status
-- **🎯 Smart UI** - Auto-resize textarea, real-time word count
-- **🪟 Windowless Mode** - Frameless window option for minimal appearance
-- **⌨️ Comprehensive Shortcuts** - Full keyboard control
+### **Enhanced Features**
+- **Advanced Settings System** with tabbed interface for all AI parameters
+- **AI Model Parameter Control** - Temperature, tokens, sampling settings
+- **Persistent Configuration** - All settings and AI parameters saved
+- **Real-time Status Display** - Current model, port, connection status
+- **Smart UI** - Auto-resize textarea, real-time word count
+- **Windowless Mode** - Frameless window option for minimal appearance
+- **Comprehensive Shortcuts** - Full keyboard control
 
-### 🎛️ **Customization Options**
+### **Customization Options**
 - Adjustable font size (11-16px)
 - Compact mode for smaller footprint
 - Toggle auto-scroll and timestamps
@@ -79,28 +79,28 @@ There is a lot of functionality still missing from this app, but I hope to conti
 ### **Service Management**
 Each AI service now has **enhanced start/stop controls**:
 
-1. **🤖 Set working directories** for your installations
-2. **▶️ Click to start** services directly from the app
-3. **⏹️ Click to stop** services when done
+1. **Set working directories** for your installations
+2. **Click to start** services directly from the app
+3. **Click to stop** services when done
 4. **Real-time status** indicators show service state
 5. **Auto-detection** of models after startup
 
-### **🔧 Advanced Settings System**
+### **Advanced Settings System**
 Access via the ⚙️ button → "Advanced Settings":
 
-**🎨 Appearance Tab:**
+**Appearance Tab:**
 - Font size control (11-16px)
 - Compact mode toggle
 - Auto-scroll behavior
 - Timestamp display
 - Chat history persistence
 
-**🪟 Window Tab:**
+**Window Tab:**
 - **Windowless Mode** - Remove window frame/title bar (Ctrl+W)
 - Always on top control
 - Start minimized option
 
-**🤖 AI Model Tabs:**
+**AI Model Tabs:**
 Each AI service has its own parameter controls:
 
 **Ollama Parameters:**
@@ -121,21 +121,21 @@ Each AI service has its own parameter controls:
 - Voice quality settings
 - GPU acceleration options
 
-### **📊 Enhanced Status Display**
+### **Enhanced Status Display**
 The status bar now shows:
 - **Current AI Model** - Which model is active
 - **Connection Status** - Service running/stopped
 - **Port Information** - Which port the service uses
 - **Live Statistics** - Message count, session time
 
-### **🪟 Windowless Mode**
+### **Windowless Mode**
 Enable via Settings → Window → Windowless Mode:
 - Removes window frame and title bar
 - Header becomes fully draggable
 - Cleaner, minimal appearance
 - Toggle with `Ctrl+W`
 
-### **⌨️ Enhanced Keyboard Shortcuts**
+### **Enhanced Keyboard Shortcuts**
 - **Ctrl+K** - Clear chat history
 - **Ctrl+E** - Export chat to JSON
 - **Ctrl+M** - Toggle accordion mode
@@ -149,18 +149,18 @@ Enable via Settings → Window → Windowless Mode:
 
 ### **Service Configuration**
 
-**🤖 Ollama:**
+**Ollama:**
 - Working directory: Leave empty to use system Ollama
 - Automatically detects all installed models
 - Real-time connection status
 
-**🔧 Llama.cpp:**
+**Llama.cpp:**
 - Working directory: Path to your llama.cpp folder (with `server` executable)
 - Model path: Full path to your `.gguf` model file
 - Port configuration and custom arguments
 - Health check monitoring
 
-**🔊 Coqui-TTS:**
+**Coqui-TTS:**
 - Working directory: Python environment with TTS installed
 - Port configuration and GPU options
 - Model auto-detection and voice synthesis
@@ -183,9 +183,9 @@ Access via the ⚙️ button:
 - Real-time typing indicators
 
 ### **Status Indicators**
-- 🟢 **Running** - Service active and ready
-- 🔴 **Stopped** - Service not running
-- 🟡 **Starting/Stopping** - Transition states
+- **Running** - Service active and ready
+- **Stopped** - Service not running
+- **Starting/Stopping** - Transition states
 - Connection status with descriptive messages
 
 ### **Visual Polish**
@@ -195,7 +195,7 @@ Access via the ⚙️ button:
 - Modern button designs with hover states
 - Professional color palette
 
-## 🛠️ Development
+## Development
 
 ```bash
 # Run with dev tools
@@ -211,7 +211,7 @@ npm run security-check
 npm run fresh-install
 ```
 
-## 🔧 AI Service Setup
+## AI Service Setup
 
 ### Ollama
 ```bash
@@ -245,7 +245,7 @@ pip install TTS
 python -m TTS.server.server --port 5002
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 **Electron sandbox error?**
 ```
@@ -282,7 +282,7 @@ Exiting GPU process due to errors during initialization
 - Draggable bar should remain visible
 - Click bar to expand back to full view
 
-## 📁 File Structure
+## File Structure
 
 ```
 ai-chat-overlay/
@@ -297,7 +297,7 @@ ai-chat-overlay/
 └── README.md          # This file
 ```
 
-## 🎯 Performance Notes
+## Performance Notes
 
 - **GPU Acceleration**: Disabled for AMD compatibility
 - **Memory Usage**: ~50-100MB typical
@@ -305,7 +305,7 @@ ai-chat-overlay/
 - **Network**: Only for AI service communications
 - **Storage**: Settings and history in localStorage
 
-## 🔒 Security & Privacy
+## Security & Privacy
 
 - No external tracking or analytics
 - Local storage only (no cloud sync)
@@ -313,7 +313,7 @@ ai-chat-overlay/
 - Optional chat history (can be disabled)
 - No API keys stored (except for Claude web access)
 
-## 🆕 What's New in Enhanced Edition
+## What's New in Enhanced Edition
 
 ### **Visual Overhaul**
 - Complete dark mode redesign
@@ -335,7 +335,7 @@ ai-chat-overlay/
 - Persistent preferences
 - Smart scroll behavior
 
-## 🤝 Contributing
+## Contributing
 
 This is designed to be easily hackable! Key areas for enhancement:
 - Additional AI backend integrations
@@ -343,10 +343,5 @@ This is designed to be easily hackable! Key areas for enhancement:
 - Advanced conversation management
 - Plugin system for extensions
 
-## 📄 License
-
-MIT License - feel free to modify and distribute!
 
 ---
-
-**Made with ❤️ for the Ubuntu AI community**
