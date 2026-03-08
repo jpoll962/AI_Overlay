@@ -74,7 +74,7 @@ There is a lot of functionality still missing from this app, but I hope to conti
    npm start
    ```
 
-## 🎯 Usage
+## Usage
 
 ### **Service Management**
 Each AI service now has **enhanced start/stop controls**:
@@ -173,7 +173,7 @@ Access via the ⚙️ button:
 - **Save History**: Persistent across sessions
 - **Timestamps**: Show message times
 
-## 🎨 UI Enhancements
+## UI Enhancements
 
 ### **Message Features**
 - Smooth slide-in animations
@@ -251,7 +251,7 @@ python -m TTS.server.server --port 5002
 ```
 FATAL:setuid_sandbox_host.cc(158)] The SUID sandbox helper binary was found, but is not configured correctly
 ```
-✅ **Fixed automatically** with `--no-sandbox` flag in package.json
+**Fixed automatically** with `--no-sandbox` flag in package.json
 
 **GPU acceleration errors (AMD/Intel GPU issues)?**
 ```
@@ -259,7 +259,7 @@ iris: driver missing
 glx: failed to create dri3 screen
 Exiting GPU process due to errors during initialization
 ```
-✅ **Fixed automatically** with GPU acceleration disabled and software rendering
+**Fixed automatically** with GPU acceleration disabled and software rendering
 
 **Models not loading?**
 - Check service status indicators
