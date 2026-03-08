@@ -45,7 +45,7 @@ There is a lot of functionality still missing from this app, but I hope to conti
 - Persistent chat history (optional)
 - Working directory configuration for all services
 
-## 🚀 Quick Setup
+## Quick Setup
 
 1. **Install dependencies**:
    ```bash
